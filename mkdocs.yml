@@ -1,5 +1,5 @@
 site_name: Ross Stockman
-site_url: https://sitename.example
+site_url: https://ross-stockman.github.io/ross-stockman-blog/
 
 copyright: Copyright &copy; 2025 Ross Stockman
 extra:
@@ -40,10 +40,9 @@ theme:
       accent: deep orange
 
 markdown_extensions:
-  - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
