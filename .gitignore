@@ -100,6 +100,7 @@ fabric.properties
 # that are supposed to be shared within teams.
 
 .idea/*
+.idea
 
 !.idea/codeStyles
 !.idea/runConfigurations
@@ -439,3 +440,6 @@ pyrightconfig.json
 
 
 # End of https://www.toptal.com/developers/gitignore/api/git,python,macos,visualstudiocode,pycharm+all,intellij+all,webstorm+all
+
+ai-prompt.md
+template.md
